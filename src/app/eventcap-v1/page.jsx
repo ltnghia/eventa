@@ -4,6 +4,7 @@ import Section from "../components/section";
 import { useEffect } from "react";
 import { imagePrefix } from "../../constant.js";
 import Authors from "./components/authors";
+import Information from "./components/information";
 
 export default function Home() {
 
@@ -50,6 +51,7 @@ export default function Home() {
                     </a>
                 </div>
 
+                <Section body={<Information/>} id="information" />
                 <Section title={"Authors"} body={<Authors/>} id="authors" />          
 
                 <div className="fixed bottom-6 right-6">
