@@ -16,6 +16,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Phuc-Tan Nguyen" image={`${imagePrefix}/nptan.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Trong-Hieu Nguyen" image={`${imagePrefix}/nthieu.jpg`} affiliation={"University of Science, Vietnam"} />
         </div>
+        <br/>
         Contact: <a href="mailto:ltnghia@fit.hcmus.edu.vn">ltnghia@fit.hcmus.edu.vn</a>
     </div>
 }

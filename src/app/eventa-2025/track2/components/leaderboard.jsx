@@ -1,7 +1,7 @@
 const Leaderboard = () => {
     return (
         <div className="text-justify">
-            coming soon
+            TBA
         </div>
     )
 }

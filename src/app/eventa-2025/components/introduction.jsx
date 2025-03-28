@@ -6,7 +6,7 @@ const Introduction = () => {
            </p>
 
            <p>
-           <span className="font-bold">Awards: Top-ranked teams will be invited to submit a paper to ACM Multimedia and can present at the conference, subject to peer review.</span>
+           <span className="font-bold">Awards: Top-ranked teams will be invited to submit a paper to ACM Multimedia and present at the conference, subject to peer review.</span>
                 
            </p>
 

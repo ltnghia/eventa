@@ -10,7 +10,7 @@ const Authors = ()=>{
             <PersonAvatar name="Thien-Phuc Tran" image={`${imagePrefix}/ttphuc.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Minh-Quang Nguyen" image={`${imagePrefix}/nmquang.jpg`} affiliation={"University of Science, Vietnam"} />
         </div>
-
+        <br/>
         Contact: <a href="mailto:ltnghia@fit.hcmus.edu.vn">ltnghia@fit.hcmus.edu.vn</a>
     </div>
 }
