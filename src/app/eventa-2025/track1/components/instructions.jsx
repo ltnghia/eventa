@@ -6,7 +6,7 @@ const Instruction = () => {
             </p>
             <br/>
             <p>
-                Participants also require to submit a detailed paper through <span className="font-bold"><a href='https://cmt3.research.microsoft.com/EVENTA25' className="underline text-[1.1em] text-[#232ba1]">the official challenge platform</a></span> to validate their solutions.
+                Participants also require to submit a detailed paper through <span className="font-bold"><a href='https://cmt3.research.microsoft.com/EVENTA2025' className="underline text-[1.1em] text-[#232ba1]">the official challenge platform</a></span> to validate their solutions.
             </p>
             <br/>
             <p>More details will be released soon.</p>
