@@ -37,7 +37,7 @@ const Sidebar = () => {
     { name: "Home", link: "/" },
     {
       name: "Datasets",
-      children: [{ name: "EventCap V1", link: "/eventcap-v1" }],
+      children: [{ name: "OpenEvents V1", link: "/openevents-v1" }],
     },
     {
       name: "Challenges",

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Section from "./components/section";
 import { useEffect } from "react";
 import Abstract from "./components/abstract";
+import News from "./components/news";
 import { imagePrefix } from "../constant.js";
 // import Header from "./components/header";
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
                 </div> */}
 
                 <Section body={<Abstract />} id="abstract" />
+                <Section title={"News"} body={<News />} id="news" />
 
                 <div className="fixed bottom-6 right-6">
                     <button id="backToTop" className="bg-[#790819] hover:bg-[#802323] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
