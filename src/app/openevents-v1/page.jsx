@@ -34,7 +34,7 @@ export default function Home() {
             <div className="header">
                 <div className="justify-center flex flex-col sm:text-[2em] text-[1.5em] text-[#f5f5f5]  font-medium ">
                     <div className="text-[0.8em] text-center mt-2">
-                       EventCap V1 Dataset
+                       OpenEvents V1 Dataset
                     </div>
                 </div>
 
