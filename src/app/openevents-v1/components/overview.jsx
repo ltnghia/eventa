@@ -35,7 +35,7 @@ const Overview = () => {
         </h2>
   
         <p className="mb-6">
-          OpenEvents V1 powers <strong>two brand-new tasks</strong> in the EVENTA 2025 Grand Challenge:
+          OpenEvents V1 powers <strong>two brand-new tasks</strong> in <span className="font-bold"><a href={`${imagePrefix}/eventa-2025`} className="underline"> the EVENTA 2025 Grand Challenge</a></span>:
         </p>
   
         <div className="mb-6">
