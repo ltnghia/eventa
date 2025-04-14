@@ -22,7 +22,7 @@ const Abstract = () => {
           <section style={{ marginBottom: '40px' }}>
             <h2 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>🧠 The Problem</h2>
             <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
-              Traditional image analysis methods—like captioning 📝, object detection 🧍, or segmentation ✂️—tend to focus on what’s visible: people, objects, and actions. But in real-world scenarios, just recognizing "a man riding a bike" isn’t enough.
+              Traditional image analysis methods—like captioning 📝, object detection 🧍, or segmentation ✂️—tend to focus on what’s visible: people, objects, and actions. But in real-world scenarios, just recognizing &quot;a man riding a bike&quot; isn’t enough.
             </p>
             <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
               What’s happening? Who is he? Where is this? Why does it matter?
@@ -54,7 +54,7 @@ const Abstract = () => {
               Understanding an image isn’t just about identifying what’s in it—it’s about making sense of its context, implications, and human relevance.
             </p>
             <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
-              Whether it's:
+              Whether it&apos;s:
             </p>
             <ul style={{ fontSize: '1.2rem', lineHeight: '1.6', marginLeft: '20px' }}>
               <li>A protest in a city square</li>
@@ -85,5 +85,5 @@ const Abstract = () => {
         </div>
       );
     };
-
+    
 export default Abstract;
