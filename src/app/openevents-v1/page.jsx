@@ -3,7 +3,6 @@ import Image from "next/image";
 import Section from "../components/section";
 import { imagePrefix } from "@/constant";
 import { useEffect } from "react";
-import { imagePrefix } from "../../constant.js";
 import Authors from "./components/authors";
 import Explore from "./components/explore";
 import Overview from "./components/overview";
