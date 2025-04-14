@@ -2,7 +2,7 @@ const Download = () => {
     return (
         <div className="text-justify">
             <p>
-                TBA
+                Stay tuned for dataset — coming soon!
             </p>
         </div>
     )

@@ -66,7 +66,7 @@ export default function Home() {
                     </a>
                 </div>
 
-                <Section title={"Overview"} body={<Overview/>} id="overview" />
+                <Section body={<Overview/>} id="overview" />
                 <Section title={"Explore"} body={<Explore/>} id="explore" />
                 <Section title={"Download"} body={<Download/>} id="download" />
                 <Section title={"Publications"} body={<Publications/>} id="publications" />
