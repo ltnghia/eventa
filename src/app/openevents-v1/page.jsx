@@ -46,12 +46,15 @@ export default function Home() {
                     <a className={button} href="./">
                         Home
                     </a>
+                    <a className={button} href="#information">
+                        Information
+                    </a>
                     <a className={button} href="#authors">
                         Authors
                     </a>
                 </div>
 
-                <Section body={<Information/>} id="information" />
+                <Section title={"Information"} body={<Information/>} id="information" />
                 <Section title={"Authors"} body={<Authors/>} id="authors" />          
 
                 <div className="fixed bottom-6 right-6">
