@@ -1,0 +1,64 @@
+/* Basic Styling */
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  p, ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Highlight the Slogan */
+  .highlighted-slogan {
+    color: #1a73e8;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Section Styling */
+  .problem-section, .mission-section, .why-it-matters-section, .features-section {
+    margin-bottom: 40px;
+  }
+  
+  .problem-section h2, .mission-section h2, .why-it-matters-section h2, .features-section h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Emojis and Visuals */
+  ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul li::before {
+    content: '•';
+    margin-right: 10px;
+  }
+  
+  ul li span {
+    margin-left: 8px;
+  }
+  

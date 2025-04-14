@@ -1,19 +1,83 @@
-const Abstract = () => {
-    return (
-        <div className="text-justify">
-           <p>
-           Conventional image analysis research (e.g., image captioning, image retrieval, object detection, object segmentation, etc.) usually tends to produce results with a limited understanding of the visual information, focusing primarily on analyzing objects, actions, and basic physical attributes in images. In many cases, captions of images are too superficial to capture complex scenarios where additional information, such as who is involved, what is happening, where and when the event took place, and its significance, is critical. Current approaches fall short in conveying deeper context, as they lack the ability to infer meaningful information about the events or interactions taking place in the image. This limitation becomes especially evident when the goal is to describe not just what is visible but also the underlying story or context associated with the image. As a result, these methods are inadequate for providing rich, informative captions that align with more sophisticated user needs, such as understanding or retrieving images related to real-world events.
-           </p>
-           <br/>
-           <p>
-           Event-Enriched Image Analysis (EVENTA) project aims to integrate contextual details and event-related information to create comprehensive, narrative-driven captions that go beyond simple visual analysis. Therefore, the captions provide richer, more comprehensive information about an image. These captions go beyond simple visual descriptions by offering deeper insights, including the names and attributes of objects, the timing, context, outcomes of events, and other crucial details - information that cannot be gleaned from merely observing the image.
-           </p>
-           <br/>
-           <p>
-           This project can facilitate the creation of more coherent and detailed narratives, capturing not only the visible elements but also the underlying context and significance of the scene, ultimately offering a more complete understanding of what the image represents. 
-           </p>
+import React from 'react';
+import './abstract.css'; // Import CSS file for custom styling
 
-        </div>
-    )
-}
+const Abstract = () => {
+  return (
+    <div className="container">
+      {/* Slogan Section */}
+      <section className="slogan-section">
+        <h1 className="highlighted-slogan">
+          Seeing Beyond the Pixels — Understanding the Story Behind Every Image
+        </h1>
+      </section>
+
+      {/* The Problem Section */}
+      <section className="problem-section">
+        <h2>🧠 The Problem</h2>
+        <p>
+          Traditional image analysis methods—like captioning 📝, object detection 🧍, or segmentation ✂️—tend to focus on what’s visible: people, objects, and actions. 
+          But in real-world scenarios, just recognizing "a man riding a bike" isn’t enough.
+        </p>
+        <p>
+          What’s happening? Who is he? Where is this? Why does it matter?
+        </p>
+        <p>Most current AI systems miss the bigger picture.</p>
+      </section>
+
+      {/* Our Mission Section */}
+      <section className="mission-section">
+        <h2>🎯 Our Mission</h2>
+        <p>
+          EVENTA aims to transform how machines interpret images by enriching them with event-level understanding. We go beyond surface-level descriptions to capture:
+        </p>
+        <ul>
+          <li>🧑‍🤝‍🧑 Who is involved</li>
+          <li>🕒 When & Where the event takes place</li>
+          <li>📖 What is happening</li>
+          <li>🧩 Why it’s significant</li>
+        </ul>
+        <p>
+          We combine visual cues with contextual reasoning to create narrative-rich, informative captions that tell the full story behind the image.
+        </p>
+      </section>
+
+      {/* Why It Matters Section */}
+      <section className="why-it-matters-section">
+        <h2>🔍 Why It Matters</h2>
+        <p>
+          Understanding an image isn’t just about identifying what’s in it—it’s about making sense of its context, implications, and human relevance.
+        </p>
+        <p>
+          Whether it's:
+        </p>
+        <ul>
+          <li>A protest in a city square</li>
+          <li>A historic moment captured in a photograph</li>
+          <li>A family gathering full of subtle emotion</li>
+        </ul>
+        <p>
+          EVENTA helps AI not just see, but understand.
+        </p>
+        <p>This makes it a powerful tool for:</p>
+        <ul>
+          <li>📰 Journalism & media analysis</li>
+          <li>🔎 Event discovery & image search</li>
+          <li>🏛️ Cultural archiving & storytelling</li>
+          <li>🧪 Research in computer vision, AI, and cognitive science</li>
+        </ul>
+      </section>
+
+      {/* What Makes EVENTA Different Section */}
+      <section className="features-section">
+        <h2>🚀 What Makes EVENTA Different?</h2>
+        <ul>
+          <li>✔️ Context-aware captions that include names, timelines, outcomes</li>
+          <li>✔️ Emphasis on narrative and semantic depth</li>
+          <li>✔️ Bridging the gap between vision and storytelling</li>
+        </ul>
+      </section>
+    </div>
+  );
+};
+
 export default Abstract;
