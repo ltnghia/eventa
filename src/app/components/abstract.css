@@ -1,0 +1,87 @@
+/* General Styles */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Slogan Section */
+  .slogan h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0046a2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  /* The Problem Section */
+  .problem h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .problem p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .problem ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 20px;
+  }
+  
+  /* Our Mission Section */
+  .mission h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .mission p, .mission ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 20px;
+  }
+  
+  .mission ul {
+    margin-left: 20px;
+  }
+  
+  /* Why It Matters Section */
+  .why-it-matters h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .why-it-matters p, .why-it-matters ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 20px;
+  }
+  
+  .why-it-matters ul {
+    margin-left: 20px;
+  }
+  
+  /* What Makes EVENTA Different Section */
+  .what-makes-different h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .what-makes-different ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 20px;
+  }
+  
