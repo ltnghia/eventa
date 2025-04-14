@@ -46,7 +46,7 @@ export default function Home() {
             <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
 
                 <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
-                    <a className={button} href="${imagePrefix}">
+                    <a className={button} href={`${imagePrefix}`}>
                         Home
                     </a>
                     <a className={button} href="#overview">
