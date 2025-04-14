@@ -19,7 +19,7 @@ const Abstract = () => {
             <div className="flex flex-col items-center">
                 <img src={`${imagePrefix}/examples.jpeg`} className="w-[80%] my-4  h-auto object-cover " />
             </div>
-            <p>What are they watching? Is the TV program important? What is this? Why does it matter?</p>
+            <p>What are they watching? Is the TV program important? What is it? Why does it matter?</p>
             <p>Most current AI systems miss the bigger picture.</p>
           </section>
     
