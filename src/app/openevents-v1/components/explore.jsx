@@ -5,7 +5,7 @@ import ImageModal from "./ImageModal";
 import Papa from "papaparse";
 import { imagePrefix } from "@/constant.js";
 
-export default function Information() {
+export default function Explore() {
 
     const [isOpen, setIsOpen] = useState(false);
     const [images, setImages] = useState([]);

@@ -1,10 +1,14 @@
 "use client";
 import Image from "next/image";
 import Section from "../components/section";
+import { imagePrefix } from "@/constant";
 import { useEffect } from "react";
 import { imagePrefix } from "../../constant.js";
 import Authors from "./components/authors";
-import Information from "./components/information";
+import Explore from "./components/explore";
+import Overview from "./components/overview";
+import Download from "./components/download";
+import Publications from "./components/publications";
 
 export default function Home() {
 
@@ -43,18 +47,30 @@ export default function Home() {
             <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
 
                 <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
-                    <a className={button} href="./">
+                    <a className={button} href="${imagePrefix}">
                         Home
                     </a>
-                    <a className={button} href="#information">
-                        Information
+                    <a className={button} href="#overview">
+                        Overview
+                    </a>
+                    <a className={button} href="#explore">
+                        Explore
+                    </a>
+                    <a className={button} href="#download">
+                        Download
+                    </a>
+                    <a className={button} href="#publications">
+                        Publications
                     </a>
                     <a className={button} href="#authors">
                         Authors
                     </a>
                 </div>
 
-                <Section title={"Information"} body={<Information/>} id="information" />
+                <Section title={"Overview"} body={<Overview/>} id="overview" />
+                <Section title={"Explore"} body={<Explore/>} id="explore" />
+                <Section title={"Download"} body={<Download/>} id="download" />
+                <Section title={"Publications"} body={<Publications/>} id="publications" />
                 <Section title={"Authors"} body={<Authors/>} id="authors" />          
 
                 <div className="fixed bottom-6 right-6">

@@ -63,8 +63,9 @@ export default function Home() {
                     </a>
                 </div>
 
-                <Section title={"Overview"} body={<Track1 />} id="overview" />
                 <Section body={<Registration />} id="registration" />
+                <Section title={"Overview"} body={<Track1 />} id="overview" />
+                
                 <Section title={"Submission Instructions"} body={<Instruction />} id="instructions" />
                 <Section title={"Evaluation"} body={<Evaluation />} id="evaluation" />
                 <Section title={"Leaderboard"} body={<Leaderboard />} id="leaderboard" />
