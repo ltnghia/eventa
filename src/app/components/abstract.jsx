@@ -1,5 +1,6 @@
 import React from 'react';
 import './abstract.css'; // Import the CSS file for styling
+import { imagePrefix } from "@/constant";
 
 const Abstract = () => {
     return (
@@ -13,9 +14,12 @@ const Abstract = () => {
           <section className="problem">
             <h2>🧠 The Problem</h2>
             <p>
-              Traditional image analysis methods—like captioning 📝, object detection 🧍, or segmentation ✂️—tend to focus on what’s visible: people, objects, and actions. But in real-world scenarios, just recognizing &quot;a man riding a bike&quot; isn’t enough.
+              Traditional image analysis methods—like captioning, object detection, or segmentation—tend to focus on what’s visible: people, objects, and actions. But in real-world scenarios, just recognizing &quot;people are watching TV&quot; isn’t enough.
             </p>
-            <p>What’s happening? Who is he? Where is this? Why does it matter?</p>
+            <div className="flex flex-col items-center">
+                <img src={`${imagePrefix}/examples.jpeg`} className="w-[80%] my-4  h-auto object-cover " />
+            </div>
+            <p>What are they watching? Is the TV program important? What is this? Why does it matter?</p>
             <p>Most current AI systems miss the bigger picture.</p>
           </section>
     
@@ -31,6 +35,7 @@ const Abstract = () => {
               <li>📖 What is happening</li>
               <li>🧩 Why it’s significant</li>
             </ul>
+            <br/>
             <p>
               We combine visual cues with contextual reasoning to create narrative-rich, informative captions that tell the full story behind the image.
             </p>
@@ -44,10 +49,11 @@ const Abstract = () => {
             </p>
             <p>Whether it&apos;s:</p>
             <ul>
-              <li>A protest in a city square</li>
-              <li>A historic moment captured in a photograph</li>
-              <li>A family gathering full of subtle emotion</li>
+              <li>📖 A protest in a city square</li>
+              <li>📖 A historic moment captured in a photograph</li>
+              <li>📖 A family gathering full of subtle emotion</li>
             </ul>
+            <br/>
             <p>EVENTA helps AI not just see, but understand.</p>
             <p>This makes it a powerful tool for:</p>
             <ul>
