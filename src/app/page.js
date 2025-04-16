@@ -34,7 +34,7 @@ export default function Home() {
         <div>
             <div className="header">
                 <div className="justify-center flex flex-col sm:text-[2em] text-[1.5em] text-[#f5f5f5]  font-medium ">
-                    <div className="text-[0.8em] text-center mt-2">
+                    <div className="text-[1.2em] text-center mt-2">
                     Event-Enriched Image Analysis (EVENTA)
                     </div>
                 </div>
