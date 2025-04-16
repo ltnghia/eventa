@@ -19,12 +19,12 @@ const Overview = () => {
         <h2 className="text-2xl font-semibold mb-3">📰 What’s Inside?</h2>
         <ul className="list-disc ml-6 space-y-2 mb-6">
           <li>
-            <strong>30,000+ news articles</strong> with <strong>100,000+ images</strong><br />
+            <strong>200,000+ news articles</strong> with <strong>400,000+ images</strong><br />
             A rich and diverse database spanning <strong>2011–2022</strong>, covering politics, climate,
             technology, culture, sports, and more.
           </li>
           <li>
-            <strong>30,000 annotated image–event caption pairs</strong><br />
+            <strong>30,000+ annotated image–event caption pairs</strong><br />
             Expertly curated and split into <strong>training</strong>, <strong>public test</strong>, and <strong>private test</strong> sets
             for benchmarking and experimentation.
           </li>
