@@ -48,7 +48,7 @@ export default function Home() {
                     <div className="text-[1.2em] text-center mt-2">
                       EVENTA Grand Challenge - ACM Multimedia 2025
                     </div>
-                    <div className="text-[0.65em]  text-white text-center mt-5">
+                    <div className="text-[0.8em]  text-white text-center mt-5">
                         Dublin, Ireland, Oct. 27-31, 2025
                     </div>
                 </div>

@@ -2,8 +2,8 @@ const ImportantDates = () => {
     return <div className="text-justify">
         
         <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
-            <li>Challenge opened: <span className="font-bold"> Apr. 01, 2025 </span></li>
-            <li>Team registration opened: <span className="font-bold"> Apr. 01, 2025 </span></li>
+            <li>Challenge opened: <span className="font-bold"> <span className="line-through">Apr. 01, 2025</span>  </span></li>
+            <li>Team registration opened: <span className="font-bold"> <span className="line-through">Apr. 01, 2025</span> </span></li>
             <li>Training set released: <span className="font-bold"> Apr. 15, 2025 </span></li>
             <li>Public-test set released: <span className="font-bold"> May. 15, 2025 </span></li>
             <li>Private-test set released: <span className="font-bold"> Jun. 10, 2025 </span></li>
