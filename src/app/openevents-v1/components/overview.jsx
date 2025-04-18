@@ -20,7 +20,7 @@ const Overview = () => {
         <ul className="list-disc ml-6 space-y-2 mb-6">
           <li>
             <strong>200,000+ news articles</strong> with <strong>400,000+ images</strong><br />
-            A rich and diverse database spanning <strong>2011–2022</strong>, covering politics, climate,
+            A rich and diverse database spanning 2011–2022, covering politics, climate,
             technology, culture, sports, and more.
           </li>
           <li>
