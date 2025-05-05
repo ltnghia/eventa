@@ -1,7 +1,7 @@
 const Evaluation = () => {
     return (
         <div className="text-justify">
-            The details will be released soon.
+            The details will be made available in the coming days.
         </div>
     )
 }
