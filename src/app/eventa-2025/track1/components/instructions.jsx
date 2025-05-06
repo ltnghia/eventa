@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Instructions = () => {
+const Instruction = () => {
   return (
     <div className="p-6 max-w-4xl mx-auto font-sans text-base leading-relaxed">
       <p className="mb-4">
@@ -44,4 +44,4 @@ const Instructions = () => {
   );
 };
 
-export default Instructions;
+export default Instruction;
