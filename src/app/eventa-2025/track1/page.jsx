@@ -3,7 +3,7 @@ import Image from "next/image";
 import Section from "../../components/section";
 import { useEffect } from "react";
 import Track1 from "./components/track1";
-import Instruction from "./components/instructions";
+import Instruction from "./components/instruction";
 import Evaluation from "./components/evaluation";
 import Leaderboard from "./components/leaderboard";
 import Registration from "../components/registration";

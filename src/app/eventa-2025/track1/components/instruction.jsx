@@ -21,9 +21,9 @@ const Instruction = () => {
       </ul>
 
       <p className="mb-4"><strong>CSV Row Format Template:</strong></p>
-      <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-        &lt;query_id&gt;;&lt;article_id_1&gt;;&lt;article_id_2&gt;;...;&lt;article_id_10&gt;;&lt;generated_caption&gt;
-        {"\n"}&lt;query_id&gt;;&lt;article_id_1&gt;;&#;...;#;&lt;generated_caption&gt;
+       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
+       {`<query_id>;<article_id_1>;<article_id_2>;...;<article_id_10>;<generated_caption>
+<query_id>;<article_id_1>;#;...;#;<generated_caption>`}
       </pre>
 
       <p className="mb-4">
