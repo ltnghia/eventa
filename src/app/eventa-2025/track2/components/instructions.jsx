@@ -15,7 +15,7 @@ const Instruction = () => {
       </p>
 
       <ul className="list-disc list-inside mb-4">
-        <li><strong>Column 1</strong>: Query image ID</li>
+        <li><strong>Column 1</strong>: Query text ID</li>
         <li><strong>Columns 2–11</strong>: Top-10 retrieved image IDs, listed in descending order of relevance (from top-1 to top-10). If an image cannot be retrieved, use <code>#</code> as a placeholder.</li>
       </ul>
 
