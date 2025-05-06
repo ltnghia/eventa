@@ -2,7 +2,7 @@ import React from 'react';
 
 const Instruction = () => {
   return (
-    <div className="p-6 max-w-4xl mx-auto font-sans text-base leading-relaxed">
+    <div>
       <p className="mb-4">
         Participants must submit a <strong>CSV</strong> file named using the following format:{' '}
         <code className="text-blue-600 font-semibold">TeamName_EVENTA2025_Track1.csv</code>.
