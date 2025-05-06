@@ -30,12 +30,16 @@ const Instruction = () => {
         There is <strong>no requirement</strong> to sort the rows by query ID—this will be handled automatically during evaluation.
       </p>
 
-      <p className="mb-4"><strong>We provide a submission example:</strong></p>
+      <p className="mb-4">We provide a submission example:</p>
       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
         12312;56712;56723;56734;56745;56756;56767;56778;56789;56790;56701;A group of children playing soccer on a sunny afternoon.
         {"\n"}12334;56712;#;#;#;#;#;#;#;#;#;A man riding a bicycle through a busy city street.
         {"\n"}12345;56712;56723;56734;56745;56756;#;#;#;#;#;A cat sitting on a windowsill looking outside at the rain.
       </pre>
+
+      <p>
+          Participants also require to submit a detailed paper through <span className="font-bold"><a  target="_blank" href='https://cmt3.research.microsoft.com/EVENTA2025' className="underline text-[1.1em] text-[#232ba1]">the official challenge platform</a></span> to validate their solutions.
+      </p>
 
       <p className="mb-4 font-bold">
         The platform will be made available in the coming days. We kindly ask for your patience in the meantime.
