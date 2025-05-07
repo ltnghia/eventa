@@ -4,9 +4,9 @@ const Evaluation = () => {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.6' }}>
       <p className="mb-4">
-        To fairly and comprehensively evaluate submissions in our challenge—which includes both 
+        To fairly and comprehensively evaluate submissions in our challenge, which includes both 
         <span style={{ color: '#1976d2', fontWeight: 'bold' }}> <strong>retrieval</strong></span> and 
-        <span style={{ color: '#388e3c', fontWeight: 'bold' }}> <strong>captioning</strong></span> tasks—we define an 
+        <span style={{ color: '#388e3c', fontWeight: 'bold' }}> <strong>captioning</strong></span> tasks, we define an 
         <span style={{ color: '#d32f2f', fontWeight: 'bold' }}> <strong>Overall Score</strong></span> that balances key 
         evaluation criteria across both domains.
       </p>
@@ -57,7 +57,7 @@ const Evaluation = () => {
 
       <p className="mb-4">These metrics are combined using a 
         <span style={{ color: '#512da8', fontWeight: 'bold' }}> <strong>weighted harmonic mean</strong></span>, 
-        which emphasizes <span style={{ fontWeight: 'bold' }}>balanced performance</span> and penalizes poor performance 
+        which emphasizes <span >balanced performance</span> and penalizes poor performance 
         more heavily than a simple average. The formula is:
       </p>
       <pre style={{ color: '#d32f2f', fontWeight: 'bold', fontSize: '1.2em', background: '#f9f9f9', padding: '10px', borderRadius: '5px' }}>
