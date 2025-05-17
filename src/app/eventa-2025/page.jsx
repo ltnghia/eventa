@@ -65,7 +65,7 @@ export default function Home() {
                     <a className={button} href="./eventa-2025/track2">
                         Event-Based Image Retrieval
                     </a>
-                    <a className={button} href="#callforpapers">
+                    <a className={button} href="#rules">
                         Challenge Rules
                     </a>
                     <a className={button} href="#dataset">
