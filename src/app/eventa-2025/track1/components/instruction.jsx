@@ -23,16 +23,16 @@ const Instruction = () => {
       <p className="mb-4"><strong>CSV Row Format Template:</strong></p>
        <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
        {`query_id,article_id_1,article_id_2,...,article_id_10,generated_caption
-       <query_id>,<article_id_1>,<article_id_2>,...,<article_id_10>,"<generated_caption>"
-       <query_id>,<article_id_1>,#,...,#,"<generated_caption>"`}
+       <query_id>,<article_id_1>,<article_id_2>,...,<article_id_10>,&quot;<generated_caption>&quot;
+       <query_id>,<article_id_1>,#,...,#,&quot;<generated_caption>&quot;`}
       </pre>
 
       <p className="mb-4">We provide a submission example:</p>
       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
         query_id,article_id_1,article_id_2,...,article_id_10,generated_caption
-        {"\n"}12312,56712,56723,56734,56745,56756,56767,56778,56789,56790,56701,"A group of children playing soccer on a sunny afternoon."
-        {"\n"}12334,56712,#,#,#,#,#,#,#,#,#,"A man riding a bicycle through a busy city street."
-        {"\n"}12345,56712,56723,56734,56745,56756,#,#,#,#,#,"A cat sitting on a windowsill looking outside at the rain."
+        {"\n"}12312,56712,56723,56734,56745,56756,56767,56778,56789,56790,56701,&quot;A group of children playing soccer on a sunny afternoon.&quot;
+        {"\n"}12334,56712,#,#,#,#,#,#,#,#,#,&quot;A man riding a bicycle through a busy city street.&quot;
+        {"\n"}12345,56712,56723,56734,56745,56756,#,#,#,#,#,&quot;A cat sitting on a windowsill looking outside at the rain.&quot;
       </pre>
 
 
