@@ -48,11 +48,6 @@ const Evaluation = () => {
               <td style={{ padding: '8px', color: '#388e3c' }}><strong>Captioning</strong></td>
             </tr>
             <tr>
-              <td style={{ padding: '8px' }}><strong>FLEUR</strong></td>
-              <td style={{ padding: '8px' }}>Fluency and linguistic quality of generated captions</td>
-              <td style={{ padding: '8px', color: '#388e3c' }}><strong>Captioning</strong></td>
-            </tr>
-            <tr>
               <td style={{ padding: '8px' }}><strong>CIDEr</strong></td>
               <td style={{ padding: '8px' }}>Agreement between generated and reference captions</td>
               <td style={{ padding: '8px', color: '#388e3c' }}><strong>Captioning</strong></td>
@@ -62,11 +57,14 @@ const Evaluation = () => {
 
         <p className="mb-4">These metrics are combined using a
           <span style={{ color: '#512da8', fontWeight: 'bold' }}> <strong>weighted harmonic mean</strong></span>,
-          which emphasizes <span >balanced performance</span> and penalizes poor performance
+          which emphasizes <span>balanced performance</span> and penalizes poor performance
           more heavily than a simple average. The formula is:
         </p>
+        
         <MathJax>
-          {`\\[ \\text{Overall Score} = \\frac{\\sum w_i}{\\sum \\left( \\frac{w_i}{m_i + \\varepsilon} \\right)} \\]`}
+          {`\\[
+            \\text{Overall Score} = r \\cdot \\left( \\frac{\\sum w_i}{\\sum \\left( \\frac{w_i}{m_i + \\varepsilon} \\right)} \\right)
+          \\]`}
         </MathJax>
 
         <p>Where:</p>
@@ -74,10 +72,11 @@ const Evaluation = () => {
           <li><strong>m<sub>i</sub></strong> is the value of the i-th metric</li>
           <li><strong>w<sub>i</sub></strong> is the weight for the i-th metric</li>
           <li><strong>ε</strong> is a small constant (e.g., 10<sup>-8</sup>) to prevent division by zero</li>
+          <li><strong>r</strong> = (#valid queries) / (#total ground-truth queries)</li>
         </ul>
 
         <p className="mb-4"><strong>Default Weights:</strong>
-          <span style={{ fontWeight: 'bold' }}> [1, 2, 2, 2, 2, 1] </span> for [AP, Recall@1, Recall@10, CLIPScore, FLEUR, CIDEr]
+          <span style={{ fontWeight: 'bold' }}> [1, 2, 2, 3, 2] </span> for [AP, Recall@1, Recall@10, CLIPScore, CIDEr]
         </p>
 
         <p className="mb-4">This <span style={{ color: '#d32f2f', fontWeight: 'bold' }}>Overall Score</span> will be used as the
