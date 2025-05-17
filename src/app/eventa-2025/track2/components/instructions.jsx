@@ -32,15 +32,17 @@ const Instruction = () => {
 
       <p className="mb-2"><strong>CSV Row Format Example:</strong></p>
       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-{`<query_id>;<image_id_1>;<image_id_2>;...;<image_id_10>
-<query_id>;<image_id_1>;#;#;#;#;#;#;#;#;#`}
+      {`query_id,image_id_1,image_id_2,...,image_id_10
+      <query_id>,<image_id_1>,<image_id_2>,...,<image_id_10>
+      <query_id>,<image_id_1>,#,#,#,#,#,#,#,#,#`}
       </pre>
 
       <p className="mb-2">Example submission:</p>
       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-{`12312;56712;56723;56734;56745;56756;56767;56778;56789;56790;56701
-12334;56712;#;#;#;#;#;#;#;#;#
-12345;56712;56723;56734;56745;56756;#;#;#;#;#`}
+      {`query_id,image_id_1,image_id_2,...,image_id_10
+      12312,56712,56723,56734,56745,56756,56767,56778,56789,56790,56701
+      12334,56712,#,#,#,#,#,#,#,#,#
+      12345,56712,56723,56734,56745,56756,#,#,#,#,#`}
       </pre>
 
       <p className="mb-4 font-semibold">Submission Requirements:</p>
@@ -61,7 +63,7 @@ const Instruction = () => {
           Submit the <strong>submission.csv</strong> file as a single ZIP file named <code>submission.zip</code> — do not include any containing folder.
         </li>
         <li>
-          The <strong>submission.csv</strong> must include all columns, in the exact order as shown in the example file.
+          The <strong>submission.csv</strong> must include all required headers and columns, in the exact order as shown in the example file.
         </li>
       </ul>
 

@@ -22,15 +22,17 @@ const Instruction = () => {
 
       <p className="mb-4"><strong>CSV Row Format Template:</strong></p>
        <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-       {`<query_id>;<article_id_1>;<article_id_2>;...;<article_id_10>;<generated_caption>
-<query_id>;<article_id_1>;#;...;#;<generated_caption>`}
+       {`query_id,article_id_1,article_id_2,...,article_id_10,generated_caption
+       <query_id>,<article_id_1>,<article_id_2>,...,<article_id_10>,"<generated_caption>"
+       <query_id>,<article_id_1>,#,...,#,"<generated_caption>"`}
       </pre>
 
       <p className="mb-4">We provide a submission example:</p>
       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-        12312;56712;56723;56734;56745;56756;56767;56778;56789;56790;56701;A group of children playing soccer on a sunny afternoon.
-        {"\n"}12334;56712;#;#;#;#;#;#;#;#;#;A man riding a bicycle through a busy city street.
-        {"\n"}12345;56712;56723;56734;56745;56756;#;#;#;#;#;A cat sitting on a windowsill looking outside at the rain.
+        query_id,article_id_1,article_id_2,...,article_id_10,generated_caption
+        {"\n"}12312,56712,56723,56734,56745,56756,56767,56778,56789,56790,56701,"A group of children playing soccer on a sunny afternoon."
+        {"\n"}12334,56712,#,#,#,#,#,#,#,#,#,"A man riding a bicycle through a busy city street."
+        {"\n"}12345,56712,56723,56734,56745,56756,#,#,#,#,#,"A cat sitting on a windowsill looking outside at the rain."
       </pre>
 
 
@@ -55,7 +57,7 @@ const Instruction = () => {
           Submit the <strong>submission.csv</strong> file as a single ZIP file named <code>submission.zip</code> — do not include any containing folder.
         </li>
         <li>
-          The <strong>submission.csv</strong> must include all columns, in the exact order as shown in the example file.
+          The <strong>submission.csv</strong> must include all headers and columns, in the exact order as shown in the example file.
         </li>
       </ul>
 
