@@ -30,19 +30,19 @@ const Instruction = () => {
         </li>
       </ul>
 
-      <p className="mb-2"><strong>CSV Row Format Example:</strong></p>
-      <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-      {`query_id,image_id_1,image_id_2,...,image_id_10
-      <query_id>,<image_id_1>,<image_id_2>,...,<image_id_10>
-      <query_id>,<image_id_1>,#,#,#,#,#,#,#,#,#`}
+      <p className="mb-4"><strong>CSV Row Format Template:</strong></p>
+       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
+        query_id,article_id_1,article_id_2,...,article_id_10
+        {"\n"}&lt;query_id&gt;,&lt;article_id_1&gt;,&lt;article_id_2&gt;,...,&lt;article_id_10&gt;
+        {"\n"}&lt;query_id&gt;,&lt;article_id_1&gt;,#,...,#
       </pre>
 
-      <p className="mb-2">Example submission:</p>
+      <p className="mb-4">We provide a submission example:</p>
       <pre className="bg-gray-100 p-3 rounded mb-4 overflow-auto">
-      {`query_id,image_id_1,image_id_2,...,image_id_10
-      12312,56712,56723,56734,56745,56756,56767,56778,56789,56790,56701
-      12334,56712,#,#,#,#,#,#,#,#,#
-      12345,56712,56723,56734,56745,56756,#,#,#,#,#`}
+        query_id,article_id_1,article_id_2,...,article_id_10
+        {"\n"}12312,56712,56723,56734,56745,56756,56767,56778,56789,56790,56701
+        {"\n"}12334,56712,#,#,#,#,#,#,#,#,#
+        {"\n"}12345,56712,56723,56734,56745,56756,#,#,#,#,#
       </pre>
 
       <p className="mb-4 font-semibold">Submission Requirements:</p>
