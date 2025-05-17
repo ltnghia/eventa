@@ -20,7 +20,7 @@ const Instruction = () => {
       </p>
 
       <p className="mb-4">
-        The CSV file should contain predictions for all queries in the provided query set. It must include <strong>11 columns</strong>, separated by <code>;</code> (semicolons), with the following structure:
+        The CSV file should contain predictions for all queries in the provided query set. It must include <strong>11 columns</strong>, separated by commas (,), with the following structure:
       </p>
 
       <ul className="list-disc list-inside mb-4">

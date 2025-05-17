@@ -11,13 +11,13 @@ const Instruction = () => {
       </p>
 
       <p className="mb-4">
-        The CSV file should include predictions for all images in the query set. It must contain <strong>12 columns</strong>, separated by <code>;</code> (semicolons), with the following structure:
+        The CSV file should include predictions for all images in the query set. It must contain <strong>12 columns</strong>, separated by commas (,), with the following structure:
       </p>
 
       <ul className="list-disc list-inside mb-4">
         <li><strong>Column 1</strong>: Query image ID</li>
         <li><strong>Columns 2–11</strong>: Top-10 retrieved article IDs, listed in descending order of relevance (from top-1 to top-10). If an article cannot be retrieved, use <code>#</code> as a placeholder.</li>
-        <li><strong>Column 12</strong>: The generated caption corresponding to the query image</li>
+        <li><strong>Column 12</strong>: The generated caption corresponding to the query image, enclosed in double quotation marks ("").</li>
       </ul>
 
       <p className="mb-4"><strong>CSV Row Format Template:</strong></p>
