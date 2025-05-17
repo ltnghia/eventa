@@ -61,7 +61,7 @@ const Instruction = () => {
           Submit the <strong>submission.csv</strong> file as a single ZIP file named <code>submission.zip</code> — do not include any containing folder.
         </li>
         <li>
-          The <strong>submission.csv</strong> must include all required headers and columns, in the exact order as shown in the example file.
+          The <strong>submission.csv</strong> must include all columns, in the exact order as shown in the example file.
         </li>
       </ul>
 
