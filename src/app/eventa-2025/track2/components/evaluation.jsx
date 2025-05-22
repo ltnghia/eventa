@@ -75,7 +75,7 @@ const Evaluation = () => {
         </p>
 
         <p className="mb-4">This <span style={{ color: '#d32f2f', fontWeight: 'bold' }}>Overall Score</span> will be used as the
-          <span style={{ color: '#1976d2', fontWeight: 'bold' }}> official ranking metric</span> for evaluating all participant submissions
+          <span style={{ color: '#d32f2f', fontWeight: 'bold' }}> official ranking metric</span> for evaluating all participant submissions
           on the retrieval leaderboard.
         </p>
       </div>

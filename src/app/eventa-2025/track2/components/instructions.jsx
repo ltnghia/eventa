@@ -5,7 +5,7 @@ const Instruction = () => {
     <div>
       <p className="mb-4">
         Participants must submit a <strong>CSV</strong> file named using the following format:{' '}
-        <code className="text-blue-600 font-semibold">TeamName_EVENTA2025_Track2.csv</code>.
+        <code className="text-blue-600 font-semibold">submission.csv</code>.
         This file must be compressed into a <strong>ZIP</strong> archive named{' '}
         <code className="text-green-600 font-semibold">submission.zip</code> before uploading it to the{' '}
         <strong>
@@ -54,16 +54,16 @@ const Instruction = () => {
           All <strong>image_id</strong> values must correspond to valid entries in our image database.
         </li>
         <li>
-          There is <strong>no requirement</strong> to sort the rows by <strong>query_id</strong>—this will be automatically handled during evaluation.
+          There is <strong>no requirement</strong> to sort the rows by <strong>query_id</strong> — this will be automatically handled during evaluation.
         </li>
         <li>
-          Your raw <strong>submission.csv</strong> file must not contain any blank lines.
+          Your raw <code className="text-blue-600 font-semibold">submission.csv</code> file must not contain any blank lines.
         </li>
         <li>
-          Submit the <strong>submission.csv</strong> file as a single ZIP file named <code>submission.zip</code> — do not include any containing folder.
+          Submit the <code className="text-blue-600 font-semibold">submission.csv</code> file as a single ZIP file named <code className="text-green-600 font-semibold">submission.zip</code> — do not include any containing folder.
         </li>
         <li>
-          The <strong>submission.csv</strong> must include all required headers and columns, in the exact order as shown in the example file.
+          The <code className="text-blue-600 font-semibold">submission.csv</code> must include all required headers and columns, in the exact order as shown in the example file.
         </li>
       </ul>
 
