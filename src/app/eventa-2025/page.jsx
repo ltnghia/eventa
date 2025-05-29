@@ -60,7 +60,7 @@ export default function Home() {
                         Challenge Overview
                     </a>
                     <a className={button} href="./eventa-2025/track1">
-                        Event-Enriched Image Captioning
+                        Event-Enriched Image Retrieval and Captioning
                     </a>
                     <a className={button} href="./eventa-2025/track2">
                         Event-Based Image Retrieval
@@ -93,7 +93,7 @@ export default function Home() {
 
                 <Section body={<Introduction />} id="introduction" />
                 <Section body={<Registration />} id="registration" />
-                <Section title={"Track 1: Event-Enriched Image Captioning"} body={<Track1 />} id="track1" />
+                <Section title={"Track 1: Event-Enriched Image Retrieval and Captioning"} body={<Track1 />} id="track1" />
                 <Section title={"Track 2: Event-Based Image Retrieval"} body={<Track2 />} id="track2" />
                 <Section title={"Challenge Rules"} body={<Rules />} id="rules" />
                 <Section title={"Dataset"} body={<Dataset />} id="dataset" />

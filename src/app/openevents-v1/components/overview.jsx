@@ -38,7 +38,7 @@ const Overview = () => {
           OpenEvents V1 powers <strong>two brand-new tasks</strong> in <span className="font-bold"><a href={`${imagePrefix}/eventa-2025`} className="underline"> the EVENTA 2025 Grand Challenge</a></span>:
         </p>
   
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <h3 className="text-xl font-medium mb-1">📸 Event-Enriched Image Captioning</h3>
           <p>
             <em>Can a model generate a news-savvy caption?</em><br />
@@ -60,7 +60,7 @@ const Overview = () => {
           <div className="flex flex-col items-center">
                 <img src={`${imagePrefix}/eventa-2025/assets/eventa25-track-2.png`} className="w-[80%] my-4  h-auto object-cover " />
           </div>
-        </div>
+        </div> */}
       </section>
     );
   };
