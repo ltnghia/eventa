@@ -48,6 +48,8 @@ export default function Explore() {
     const [currentIndex, setCurrentIndex] = useState(null);
     return (
         <>
+            <p className="text-center mb-4">Click on an image to view its description.</p>
+            <br />
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 max-h-[50vh] overflow-y-auto">
                 {images.map((img, idx) => (
                     <div key={idx} className="cursor-pointer" onClick={() => openModal(idx)}>
