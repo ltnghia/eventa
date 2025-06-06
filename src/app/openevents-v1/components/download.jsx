@@ -18,8 +18,7 @@ const Download = () => {
         </p>
   
         <p>
-          🔒 <strong>Usage Notice:</strong> The dataset is made available strictly for <strong>research and academic purposes</strong> only.
-          Commercial use is not permitted.
+          🔒 <strong>License:</strong> OpenEvents V1 is published under the CC-BY-NC-SA 4.0 License. The dataset is made available strictly for research and academic purposes only. You must not use this work for commercial purposes. If you alter or build upon this dataset, you have to distribute the resulting work only under the same license. If you are interested in commercial usage, please contact us.
         </p>
   
         <p>
