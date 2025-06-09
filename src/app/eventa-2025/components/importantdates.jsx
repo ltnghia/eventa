@@ -6,7 +6,7 @@ const ImportantDates = () => {
             <li>Team registration opened: <span className="font-bold"> <span className="line-through">Apr. 01, 2025</span> </span></li>
             <li>Training set released: <span className="font-bold"> <span className="line-through">Apr. 18, 2025</span> </span></li>
             <li>Public-test set released: <span className="font-bold"> <span className="line-through">May. 05, 2025</span>  </span></li>
-            <li>Team registration deadline: <span className="font-bold"> Jun. 09, 2025 </span></li>
+            <li>Team registration deadline: <span className="font-bold"> <span className="line-through">Jun. 09, 2025</span> </span></li>
             <li>Private-test set released: <span className="font-bold"> Jun. 10, 2025 </span></li>
             <li>Challenge closed: <span className="font-bold"> Jun. 24, 2025 </span></li>
             <li>Paper submission deadline: <span className="font-bold"> Jul. 01, 2025 </span></li>
