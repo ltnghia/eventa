@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ClipboardCopy } from 'lucide-react'; // hoặc dùng bất kỳ icon nào bạn thích
+import { ClipboardCopy } from 'lucide-react';
 
 const Publications = () => {
     const bibtex = `@article{openeventsv1,
@@ -24,7 +24,7 @@ const Publications = () => {
             <div>
                 <p>
                     <strong>Hieu Nguyen, Phuc-Tan Nguyen, Thien-Phuc Tran, Minh-Quang Nguyen, Tam V. Nguyen, Minh-Triet Tran, Trung-Nghia Le</strong>, 
-                    &nbsp;"<em>OpenEvents V1: Large-Scale Benchmark Dataset for Multimodal Event Grounding</em>", 
+                    &nbsp;&quot;<em>OpenEvents V1: Large-Scale Benchmark Dataset for Multimodal Event Grounding</em>&quot;, 
                     arXiv preprint arXiv:2506.18372, 2025. 
                     &nbsp;<a 
                         href="https://arxiv.org/abs/2506.18372" 
