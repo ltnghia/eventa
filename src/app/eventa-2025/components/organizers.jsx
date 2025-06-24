@@ -13,7 +13,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Duy-Nam Ly" image={`${imagePrefix}/ldnam.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Viet-Tham Huynh" image={`${imagePrefix}/hvtham.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Khanh-Duy Le" image={`${imagePrefix}/lkduy.jpg`} affiliation={"University of Science, Vietnam"} />
-            <PersonAvatar name="Mai-Khiem Tran" image={`${imagePrefix}/avatar.jpg`} affiliation={"University of Science, Vietnam"} />
+            <PersonAvatar name="Mai-Khiem Tran" image={`${imagePrefix}/tmkhiem.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Phuc-Tan Nguyen" image={`${imagePrefix}/nptan.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Trong-Hieu Nguyen" image={`${imagePrefix}/nthieu.jpg`} affiliation={"University of Science, Vietnam"} />
         </div>
