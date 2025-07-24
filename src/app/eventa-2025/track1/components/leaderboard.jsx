@@ -1,15 +1,10 @@
 const Leaderboard = () => {
     const data = [
-        { rank: 0, team: "AlphaAI", ap: 87.5, r1: 92.1, r10: 98.3, clip: 84.2, cider: 120.3, overall: 90.5, code: "https://example.com/alpha-ai.pdf", pdf: "https://example.com/alpha-ai.pdf" },
-        // { rank: 2, team: "Visionary", ap: 85.3, r1: 90.8, r10: 97.5, clip: 83.7, cider: 115.6, overall: 88.9 },
-        // { rank: 3, team: "MultiModalX", ap: 84.9, r1: 89.2, r10: 96.2, clip: 82.1, cider: 113.4, overall: 87.6 },
-        // { rank: 4, team: "SkyNet", ap: 83.1, r1: 88.0, r10: 95.6, clip: 80.9, cider: 110.2, overall: 86.4 },
-        // { rank: 5, team: "NeuroLink", ap: 82.7, r1: 87.4, r10: 94.8, clip: 81.3, cider: 108.5, overall: 85.9 },
-        // { rank: 6, team: "DataDream", ap: 80.5, r1: 85.1, r10: 93.0, clip: 79.4, cider: 106.3, overall: 84.2 },
-        // { rank: 7, team: "VLMasters", ap: 79.3, r1: 84.2, r10: 91.6, clip: 78.5, cider: 104.0, overall: 83.1 },
-        // { rank: 8, team: "EventHorizon", ap: 77.8, r1: 82.6, r10: 90.3, clip: 77.1, cider: 101.9, overall: 81.7 },
-        // { rank: 9, team: "GroundTruth", ap: 76.1, r1: 81.0, r10: 89.5, clip: 75.6, cider: 100.2, overall: 80.4 },
-        // { rank: 10, team: "ZeroShotX", ap: 74.5, r1: 79.8, r10: 88.0, clip: 74.3, cider: 98.5, overall: 79.2 },
+        { rank: 1, team: "Cerebro", overall: 0.550, ap: 0.991, r1: 0.989, r10: 0.995, clip: 0.826, cider: 0.210, code: "https://github.com/leminhhoang04/EVENTA25-ENRIC", pdf: "https://drive.google.com/file/d/11h6cBv8Gi8cvXynqsflWT8aYl_Lmm_oB/view?usp=drive_link" },
+        { rank: 2, team: "SodaBread", overall: 0.547, ap: 0.982, r1: 0.977, r10: 0.988, clip: 0.870, cider: 0.205, code: "https://github.com/Noridom1/EVENTA2025-Event-Enriched-Image-Captioning", pdf: "https://drive.google.com/file/d/112BpFQxf0boqeqjKvWA0UoPLluF6KCW1/view?usp=drive_link" },
+        { rank: 3, team: "Re:zero Slavery", overall: 0.451, ap: 0.955, r1: 0.945, r10: 0.973, clip: 0.732, cider: 0.156, code: "https://github.com/PhamPhuHoa-23/Event-Enriched-Image-Captioning-ReZeroSlavery", pdf: "https://drive.google.com/file/d/1_-0QwLfkggtv_6t4AWOEB34_ba6S5AiL/view?usp=drive_link" },
+        { rank: 4, team: "ITxTK9", overall: 0.420, ap: 0.966, r1: 0.955, r10: 0.983, clip: 0.828, cider: 0.133, code: "https://github.com/seconddtiff/ZSE-Cap", pdf: "https://drive.google.com/file/d/1yo9ZlnXDU2B1qLcVF2IuMVPe9G8sxXqS/view?usp=drive_link" },
+        { rank: 5, team: "HCMUS-NoName", overall: 0.282, ap: 0.708, r1: 0.663, r10: 0.801, clip: 0.783, cider: 0.081, code: "https://github.com/mf0212/EVENTA-Challange", pdf: "https://drive.google.com/file/d/1nA-RsByqLOwolnjnHy74uV7M_ppe5A1q/view?usp=drive_link" },
     ];
 
     return (

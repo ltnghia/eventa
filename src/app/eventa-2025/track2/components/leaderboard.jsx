@@ -1,15 +1,10 @@
 const Leaderboard = () => {
     const data = [
-        // { rank: 1, team: "AlphaAI", ap: 87.5, r1: 92.1, r10: 98.3, clip: 84.2, cider: 120.3, overall: 90.5 },
-        // { rank: 2, team: "Visionary", ap: 85.3, r1: 90.8, r10: 97.5, clip: 83.7, cider: 115.6, overall: 88.9 },
-        // { rank: 3, team: "MultiModalX", ap: 84.9, r1: 89.2, r10: 96.2, clip: 82.1, cider: 113.4, overall: 87.6 },
-        // { rank: 4, team: "SkyNet", ap: 83.1, r1: 88.0, r10: 95.6, clip: 80.9, cider: 110.2, overall: 86.4 },
-        // { rank: 5, team: "NeuroLink", ap: 82.7, r1: 87.4, r10: 94.8, clip: 81.3, cider: 108.5, overall: 85.9 },
-        // { rank: 6, team: "DataDream", ap: 80.5, r1: 85.1, r10: 93.0, clip: 79.4, cider: 106.3, overall: 84.2 },
-        // { rank: 7, team: "VLMasters", ap: 79.3, r1: 84.2, r10: 91.6, clip: 78.5, cider: 104.0, overall: 83.1 },
-        // { rank: 8, team: "EventHorizon", ap: 77.8, r1: 82.6, r10: 90.3, clip: 77.1, cider: 101.9, overall: 81.7 },
-        // { rank: 9, team: "GroundTruth", ap: 76.1, r1: 81.0, r10: 89.5, clip: 75.6, cider: 100.2, overall: 80.4 },
-        // { rank: 10, team: "ZeroShotX", ap: 74.5, r1: 79.8, r10: 88.0, clip: 74.3, cider: 98.5, overall: 79.2 },
+        { rank: 1, team: "NoResources", overall: 0.577, ap: 0.563, mrr: 0.563, recall1: 0.469, recall5: 0.690, recall10: 0.744, code: "https://github.com/Anonymous-Reseacher/EVENT-Retriever", pdf: "https://drive.google.com/file/d/1WY0WSVxVgkSkERsFiBbH20XZfciw2aJ9/view?usp=drive_link" },
+        { rank: 2, team: "23Trinitrotoluen", overall: 0.572, ap: 0.558, mrr: 0.558, recall1: 0.456, recall5: 0.698, recall10: 0.762, code: "https://github.com/BrdH7940/EVENT-Event-Based-Image-Retrieval", pdf: "https://drive.google.com/file/d/1z1emGFeWblzfZNHfj7KFqWS6QIZnkWvt/view?usp=drive_link" },
+        { rank: 3, team: "LastSong", overall: 0.563, ap: 0.549, mrr: 0.549, recall1: 0.449, recall5: 0.695, recall10: 0.738, code: "https://github.com/ToTuanAn/eventa_lastsong", pdf: "https://drive.google.com/file/d/17OOxauy6wzqgb4y7l7JN0d2w0CyspBEO/view?usp=drive_link" },
+        { rank: 4, team: "Sharingan Retrievers", overall: 0.533, ap: 0.521, mrr: 0.521, recall1: 0.428, recall5: 0.640, recall10: 0.705, code: "https://github.com/PhamPhuHoa-23/Event-Based-Image-Retrieval", pdf: "https://drive.google.com/file/d/1cXW2PCxcmrrJnqCtsvv0cDAWGuMkiBPOV/view?usp=drive_link" },
+        { rank: 5, team: "ZJH-FDU", overall: 0.368, ap: 0.361, mrr: 0.361, recall1: 0.270, recall5: 0.491, recall10: 0.525, code: "https://github.com/hoooly-z/acmmm_challenge", pdf: "https://drive.google.com/file/d/165SqUWwJq2t29s_3BrWm-nSkefMa3f9h/view?usp=drive_link" },
     ];
 
     return (
@@ -19,12 +14,14 @@ const Leaderboard = () => {
                     <tr>
                         <th className="border px-3 py-2">Rank</th>
                         <th className="border px-3 py-2">Team</th>
+                        <th className="border px-3 py-2">Overall</th>
                         <th className="border px-3 py-2">AP</th>
                         <th className="border px-3 py-2">Recall@1</th>
                         <th className="border px-3 py-2">Recall@10</th>
-                        <th className="border px-3 py-2">CLIPScore</th>
-                        <th className="border px-3 py-2">CIDEr</th>
-                        <th className="border px-3 py-2">Overall</th>
+                        <th className="border px-3 py-2">recall5Score</th>
+                        <th className="border px-3 py-2">recall10</th>
+                        <th className="border px-3 py-2">Code</th>
+                        <th className="border px-3 py-2">Report</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -32,12 +29,22 @@ const Leaderboard = () => {
                         <tr key={team.rank} className="hover:bg-gray-100">
                             <td className="border px-3 py-2">{team.rank}</td>
                             <td className="border px-3 py-2 font-medium">{team.team}</td>
-                            <td className="border px-3 py-2">{team.ap}</td>
-                            <td className="border px-3 py-2">{team.r1}</td>
-                            <td className="border px-3 py-2">{team.r10}</td>
-                            <td className="border px-3 py-2">{team.clip}</td>
-                            <td className="border px-3 py-2">{team.cider}</td>
                             <td className="border px-3 py-2 font-bold">{team.overall}</td>
+                            <td className="border px-3 py-2">{team.ap}</td>
+                            <td className="border px-3 py-2">{team.mrr}</td>
+                            <td className="border px-3 py-2">{team.recall1}</td>
+                            <td className="border px-3 py-2">{team.recall5}</td>
+                            <td className="border px-3 py-2">{team.recall10}</td>
+                            <td className="border px-3 py-2">
+                                <a href={team.code} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                    Github
+                                </a>
+                            </td>
+                            <td className="border px-3 py-2">
+                                <a href={team.pdf} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                    Pdf
+                                </a>
+                            </td>
                         </tr>
                     ))}
                 </tbody>
