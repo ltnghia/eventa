@@ -1,6 +1,6 @@
 const Leaderboard = () => {
     const data = [
-        // { rank: 1, team: "AlphaAI", ap: 87.5, r1: 92.1, r10: 98.3, clip: 84.2, cider: 120.3, overall: 90.5 },
+        { rank: 0, team: "AlphaAI", ap: 87.5, r1: 92.1, r10: 98.3, clip: 84.2, cider: 120.3, overall: 90.5, code: "https://example.com/alpha-ai.pdf", pdf: "https://example.com/alpha-ai.pdf" },
         // { rank: 2, team: "Visionary", ap: 85.3, r1: 90.8, r10: 97.5, clip: 83.7, cider: 115.6, overall: 88.9 },
         // { rank: 3, team: "MultiModalX", ap: 84.9, r1: 89.2, r10: 96.2, clip: 82.1, cider: 113.4, overall: 87.6 },
         // { rank: 4, team: "SkyNet", ap: 83.1, r1: 88.0, r10: 95.6, clip: 80.9, cider: 110.2, overall: 86.4 },
@@ -19,12 +19,14 @@ const Leaderboard = () => {
                     <tr>
                         <th className="border px-3 py-2">Rank</th>
                         <th className="border px-3 py-2">Team</th>
+                        <th className="border px-3 py-2">Overall</th>
                         <th className="border px-3 py-2">AP</th>
                         <th className="border px-3 py-2">Recall@1</th>
                         <th className="border px-3 py-2">Recall@10</th>
                         <th className="border px-3 py-2">CLIPScore</th>
                         <th className="border px-3 py-2">CIDEr</th>
-                        <th className="border px-3 py-2">Overall</th>
+                        <th className="border px-3 py-2">Code</th>
+                        <th className="border px-3 py-2">Report</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -32,12 +34,22 @@ const Leaderboard = () => {
                         <tr key={team.rank} className="hover:bg-gray-100">
                             <td className="border px-3 py-2">{team.rank}</td>
                             <td className="border px-3 py-2 font-medium">{team.team}</td>
+                            <td className="border px-3 py-2 font-bold">{team.overall}</td>
                             <td className="border px-3 py-2">{team.ap}</td>
                             <td className="border px-3 py-2">{team.r1}</td>
                             <td className="border px-3 py-2">{team.r10}</td>
                             <td className="border px-3 py-2">{team.clip}</td>
                             <td className="border px-3 py-2">{team.cider}</td>
-                            <td className="border px-3 py-2 font-bold">{team.overall}</td>
+                            <td className="border px-3 py-2">
+                                <a href={team.code} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                    Github
+                                </a>
+                            </td>
+                            <td className="border px-3 py-2">
+                                <a href={team.pdf} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                    Pdf
+                                </a>
+                            </td>
                         </tr>
                     ))}
                 </tbody>
