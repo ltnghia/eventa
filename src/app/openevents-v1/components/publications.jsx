@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { ClipboardCopy } from 'lucide-react';
 
 const Publications = () => {
-    const bibtex = `@article{openeventsv1,
+    const bibtex = `@InProceedings{openeventsv1,
   title={OpenEvents V1: Large-Scale Benchmark Dataset for Multimodal Event Grounding}, 
   author={Hieu Nguyen and Phuc-Tan Nguyen and Thien-Phuc Tran and Minh-Quang Nguyen and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   year={2025},
-  journal={arXiv preprint arXiv:2506.18372},
+  booktitle={ACM International Conference on Multimedia},
   url={https://arxiv.org/abs/2506.18372}, 
 }`;
 
@@ -25,7 +25,7 @@ const Publications = () => {
                 <p>
                     <strong>Hieu Nguyen, Phuc-Tan Nguyen, Thien-Phuc Tran, Minh-Quang Nguyen, Tam V. Nguyen, Minh-Triet Tran, Trung-Nghia Le</strong>, 
                     &nbsp;&quot;<em>OpenEvents V1: Large-Scale Benchmark Dataset for Multimodal Event Grounding</em>&quot;, 
-                    arXiv preprint arXiv:2506.18372, 2025. 
+                    ACM International Conference on Multimedia, 2025. 
                     &nbsp;<a 
                         href="https://arxiv.org/abs/2506.18372" 
                         className="text-blue-600 hover:underline" 
