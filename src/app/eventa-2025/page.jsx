@@ -15,6 +15,7 @@ import AcceptedPapers from "./components/acceptedpapers";
 import Schedule from "./components/schedule";
 import Registration from "./components/registration";
 import Acknowledgements from "./components/acknowledgements";
+import Publications from "./components/publications";
 // import Speakers from "./components/speakers";
 // import TechnicalSupporters from "./components/technical-supporters";
 import { imagePrefix } from "../../constant.js";
@@ -103,6 +104,7 @@ export default function Home() {
                 {/* <Section title={"Leaderboard"} body={<Leaderboard />} id="leaderboard" /> */}
                 <Section title={"Challenge Schedule"} body={<Schedule />} id="schedule" />
                 {/* <Section title={"Speakers"} body={<Speakers />} id="speakers" /> */}
+                <Section title={"Publications"} body={<Publications />} id="publications" />
                 <Section title={"Organizers"} body={<Organizers />} id="organizers" />
                 {/* <Section title={"Acknowledgements"} body={<Acknowledgements />} id="acknowledgements" /> */}
                 {/* <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" /> */}
