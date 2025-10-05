@@ -11,8 +11,8 @@ const ImportantDates = () => {
             <li>Challenge closed: <del><span className="font-bold"> <span className="line-through">Jun. 24, 2025 </span></span></del></li>
             <li>Paper submission deadline: <span className="font-bold"> <span className="line-through">Jul. 01, 2025 </span></span></li>
             <li>Acceptance notification: <span className="font-bold"> <span className="line-through">Jul. 24, 2025 </span></span></li>
-            <li>Camera-ready deadline: <span className="font-bold"> Aug. 26, 2025 </span></li>
-            <li>Challenge date: <span className="font-bold"> Otc. 27-31, 2025 </span></li>
+            <li>Camera-ready deadline: <span className="font-bold"> <span className="line-through">Aug. 26, 2025 </span></span></li>
+            <li>Challenge date: <span className="font-bold"> Otc. 31, 2025 </span></li>
         </ul>
     </div>
 }
