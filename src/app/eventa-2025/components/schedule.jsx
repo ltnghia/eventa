@@ -1,6 +1,6 @@
 const Schedule = () => {
     return <div className="text-justify">
-        The EVENTA Challenge will take place on <span className="font-bold"> October 31st, 2025 (Friday) from 9:00AM to 10:30AM (UTC+7)</span>. The event will be held at <strong>Hyatt, Distillers Room</strong> and online via Zoom. The detailed schedule is as follows:
+        The EVENTA Challenge will take place on <span className="font-bold"> October 31st, 2025 (Friday) from 9:00AM to 10:30AM (GMT+1)</span>. The event will be held at <strong>Hyatt, Distillers Room</strong> and online via Zoom. The detailed schedule is as follows:
         <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
             <li><span className="font-bold"> 9:00AM - 9:10AM </span> — Welcome and Introduction </li>
             <li><span className="font-bold"> 9:10AM - 9:25AM </span> — <strong>Cerebro Team:</strong> ENRIC: EveNt-AwaRe Captioning with Image Retrieval via UnCertainty-Guided Re-ranking and Semantic Ensemble Reasoning</li>
