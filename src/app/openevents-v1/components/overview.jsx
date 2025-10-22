@@ -31,21 +31,25 @@ const Overview = () => {
         </ul>
 
         <h2 className="text-2xl font-semibold mb-3">
-          📦 Support for two tasks:
+          📦 Support for three tasks:
         </h2>
   
         <ul className="list-disc ml-6 space-y-2 mb-6">
           <li>
             <strong>Event-Based Image Retrieval</strong>: Given a description, retrieve related image from the news database.
           </li>
-          {/* <li>
+          <li>
             <strong>Event-Based Article Retrieval</strong>: Given an image, retrieve related articles from the news database.
-          </li> */}
+          </li>
           <li>
             <strong>Event-Enriched Image Captioning</strong>: Given an image and it related article, generate a caption enriched with real event details.
           </li>
         </ul>
-  
+
+        <p className="mb-6">
+          Benchmarking is hosted on Codabench via <a href={`${imagePrefix}/eventa-2025`} className="underline ml-1">the EVENTA 2025 Challenge</a>.
+        </p>
+        
         <h2 className="text-2xl font-semibold mb-3">
           🚀 Support for EVENTA Grand Challenge @ ACM Multimedia 2025
         </h2>
