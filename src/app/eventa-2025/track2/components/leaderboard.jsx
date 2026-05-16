@@ -16,10 +16,10 @@ const Leaderboard = () => {
                         <th className="border px-3 py-2">Team</th>
                         <th className="border px-3 py-2">Overall</th>
                         <th className="border px-3 py-2">AP</th>
+                        <th className="border px-3 py-2">MRR</th>
                         <th className="border px-3 py-2">Recall@1</th>
-                        <th className="border px-3 py-2">Recall@10</th>
-                        <th className="border px-3 py-2">recall5Score</th>
-                        <th className="border px-3 py-2">recall10</th>
+                        <th className="border px-3 py-2">recall@5</th>
+                        <th className="border px-3 py-2">recall@10</th>
                         <th className="border px-3 py-2">Code</th>
                         <th className="border px-3 py-2">Report</th>
                     </tr>
