@@ -8,6 +8,7 @@ import Explore from "./components/explore";
 import Overview from "./components/overview";
 import Download from "./components/download";
 import Publications from "./components/publications";
+import Acknowledgement from "./components/acknowledgement";
 
 export default function Home() {
 
@@ -70,7 +71,8 @@ export default function Home() {
                 <Section title={"Explore"} body={<Explore/>} id="explore" />
                 <Section title={"Download"} body={<Download/>} id="download" />
                 <Section title={"Publications"} body={<Publications/>} id="publications" />
-                <Section title={"Authors"} body={<Authors/>} id="authors" />          
+                <Section title={"Authors"} body={<Authors/>} id="authors" />  
+                <Section title={"Acknowledgement"} body={<Acknowledgement/>} id="acknowledgement" />          
 
                 <div className="fixed bottom-6 right-6">
                     <button id="backToTop" className="bg-[#790819] hover:bg-[#802323] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>

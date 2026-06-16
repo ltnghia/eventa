@@ -14,10 +14,10 @@ import AcceptedPapers from "./components/acceptedpapers";
 // import Leaderboard from "./components/leaderboard";
 import Schedule from "./components/schedule";
 import Registration from "./components/registration";
-import Acknowledgements from "./components/acknowledgements";
+import Acknowledgement from "./components/acknowledgement";
 import Publications from "./components/publications";
 // import Speakers from "./components/speakers";
-// import TechnicalSupporters from "./components/technical-supporters";
+import TechnicalSupporters from "./components/technical-supporters";
 import { imagePrefix } from "../../constant.js";
 export default function Home() {
 
@@ -106,8 +106,8 @@ export default function Home() {
                 {/* <Section title={"Speakers"} body={<Speakers />} id="speakers" /> */}
                 <Section title={"Publications"} body={<Publications />} id="publications" />
                 <Section title={"Organizers"} body={<Organizers />} id="organizers" />
-                {/* <Section title={"Acknowledgements"} body={<Acknowledgements />} id="acknowledgements" /> */}
-                {/* <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" /> */}
+                <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
+                <Section title={"Acknowledgement"} body={<Acknowledgement />} id="acknowledgement" />
                 <div className="fixed bottom-6 right-6">
                     <button id="backToTop" className="bg-[#790819] hover:bg-[#802323] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
                         <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
