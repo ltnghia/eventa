@@ -1,0 +1,7 @@
+Github commands:
+git pull: pull remote files -> local
+
+
+NPM commands:
+npm install: neu chua co node_modules folder
+npm run dev: xem website tren localhost:3000
